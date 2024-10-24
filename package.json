@@ -1,7 +1,8 @@
 {
   "name": "backend-api-for-e-commerce-app-nexa",
   "version": "1.0.0",
-  "main": "index.ts",
+  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
