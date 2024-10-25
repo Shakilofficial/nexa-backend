@@ -2,7 +2,7 @@
   "name": "backend-api-for-e-commerce-app-nexa",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "app.ts",
   "scripts": {
     "start": "nodemon src/index.ts",
     "build": "rimraf dist && tsc",
